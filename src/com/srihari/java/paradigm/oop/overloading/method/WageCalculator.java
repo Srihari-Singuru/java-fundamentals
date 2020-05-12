@@ -1,4 +1,4 @@
-package com.srihari.java.paradigm.oop.overloading;
+package com.srihari.java.paradigm.oop.overloading.method;
 
 /**
  * Calculate the Wage of an Employee

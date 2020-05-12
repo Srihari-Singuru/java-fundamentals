@@ -1,4 +1,4 @@
-package com.srihari.java.paradigm.oop.overloading;
+package com.srihari.java.paradigm.oop.overloading.method;
 
 /**
  * We are refactoring the class by having constructors
