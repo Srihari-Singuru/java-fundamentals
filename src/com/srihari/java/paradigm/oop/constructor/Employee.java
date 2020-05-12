@@ -1,4 +1,4 @@
-package com.srihari.java.paradigm.oop.encapsulation.refactor;
+package com.srihari.java.paradigm.oop.constructor;
 
 /**
  * We are refactoring the class by having constructors
