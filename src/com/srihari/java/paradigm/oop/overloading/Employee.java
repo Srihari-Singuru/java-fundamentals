@@ -1,4 +1,4 @@
-package com.srihari.java.paradigm.oop.encapsulation.refactor;
+package com.srihari.java.paradigm.oop.overloading;
 
 /**
  * We are refactoring the class by having constructors
@@ -20,6 +20,14 @@ public class Employee {
 
     public int calculateWage(int extraHours){
         return basicSalary + (extraHours * hourlyRate);
+    }
+
+    /* Method overloading,
+       Instead of caller passing the zero value, we can overload the method
+       However, please use this overloading only when you need to accept different types or number of parameters.
+       For small changes like below, it is not worth */
+    public int calculateWage(){
+        return calculateWage(0);
     }
 
     private void setBasicSalary(int basicSalary){
