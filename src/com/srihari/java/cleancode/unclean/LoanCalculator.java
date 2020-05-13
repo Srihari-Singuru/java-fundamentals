@@ -4,6 +4,9 @@ import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * The following code is very procedural
+ */
 public class LoanCalculator {
     final static byte MONTHS_IN_YEAR = 12;
     final static byte PERCENT = 100;
