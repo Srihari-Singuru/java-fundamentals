@@ -6,8 +6,9 @@ import java.util.Scanner;
 
 /**
  * The following code is very procedural
+ * One method calling another calling another etc.
  */
-public class LoanCalculator {
+public class LoanApplication {
     final static byte MONTHS_IN_YEAR = 12;
     final static byte PERCENT = 100;
 
@@ -44,7 +45,7 @@ public class LoanCalculator {
         double value;
         while (true) {
             System.out.print(prompt);
-            value = scanner.nextFloat();
+            value = scanner.nextDouble();
             if (value >= min && value <= max)
                 break;
             System.out.println("Enter a value between " + min + " and " + max);
