@@ -25,7 +25,9 @@ public class CollectionApplication {
 
         Object[] objectArray = collection.toArray();
         String[] stringArray = collection.toArray(new String[0]);   // size can be zero, it will automatically set to collection size
+        // We can use 'var' in above two statements
 
+        // If we use 'var' here, then the type will be ArrayList but not Collection
         Collection<String> other = new ArrayList<>();
         // Collections.addAll(other, "a", "b", "c");    // collection.equals(other) will be false
         other.addAll(collection);   // collection.equals(other) will be true, but collection == other will be false
